@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+@import url(../fontawesome-free-6.0.0-web/css/all.css);
 body {
   background-color: black;
   font-family: "PT Sans", sans-serif;
@@ -24,10 +25,32 @@ header #cities {
   width: 100%;
 }
 
-main {
-  background-color: black;
-  font-family: "PT Sans", sans-serif;
+ul li a {
   color: white;
+}
+
+#website:before {
+  font-family: "FontAwesome";
+  content: "\f0ac";
+  margin-right: 7px;
+}
+
+#email:before {
+  font-family: "FontAwesome";
+  content: "\f0e0";
+  margin-right: 7px;
+}
+
+#github:before {
+  font-family: "FontAwesome";
+  content: "\f09b";
+  margin-right: 7px;
+}
+
+#linkedin:before {
+  font-family: "FontAwesome";
+  content: "\f09c";
+  margin-right: 7px;
 }
 
 /*# sourceMappingURL=about.css.map */
