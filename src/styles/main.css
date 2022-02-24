@@ -1,3 +1,19 @@
-
+body {
+  background-image: url(../images/collage.png);
+  background-size: 100%;
+}
+body img {
+  width: 20%;
+  position: absolute;
+  left: 67vw;
+  top: 12vh;
+  transform: rotate(17deg);
+}
+body img:hover {
+  width: 25%;
+  position: absolute;
+  left: 64vw;
+  top: 7vh;
+}
 
 /*# sourceMappingURL=main.css.map */
