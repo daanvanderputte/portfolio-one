@@ -29,29 +29,16 @@ main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-top: 8vh;
   padding-left: 32vw;
-  border: red dotted 2px;
 }
-
-main section:first-child {
-  border: white solid 1px;
-}
-
-main section:nth-child(2) {
-  border: pink solid 1px;
-}
-
-main section:nth-child(3) {
-  border: orange solid 1px;
+main a {
+  color: white;
 }
 
 ul {
   list-style-type: none;
   padding-left: 0;
-}
-
-ul li a {
-  color: white;
 }
 
 #website:before {
@@ -76,6 +63,20 @@ ul li a {
   font-family: "FontAwesome";
   content: "\f09c";
   margin-right: 7px;
+}
+
+#camera {
+  width: 15%;
+  position: absolute;
+  bottom: 30vh;
+  left: 10vw;
+}
+
+#turntable {
+  width: 25%;
+  position: absolute;
+  bottom: 4vh;
+  left: 66vw;
 }
 
 /*# sourceMappingURL=about.css.map */
