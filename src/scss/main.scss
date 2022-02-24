@@ -1,12 +1,14 @@
 body {
     background-image: url(../images/collage.png);
     background-size: 100%;
+
         img {
             width: 20%;
             position: absolute;
             left: 67vw;
             top: 12vh;
             transform: rotate(17deg);
+            
                 &:hover {
                     width: 25%;
                     position: absolute;
