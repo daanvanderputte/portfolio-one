@@ -26,12 +26,34 @@ header {
             width: 100%
     }
 }
-// Contact links
+// Main
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 32vw;
+    border: red dotted 2px;
+}
 
+main section:first-child {
+    border: white solid 1px;
+}
+
+main section:nth-child(2) {
+    border: pink solid 1px;
+}
+
+main section:nth-child(3) {
+    border: orange solid 1px;
+}
+// Contact links
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
 ul li a{
     color: white;
 }
-
 #website:before {
     font-family: "FontAwesome";
     content: "\f0ac";
