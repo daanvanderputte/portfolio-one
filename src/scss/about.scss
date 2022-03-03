@@ -42,26 +42,94 @@ ul {
     list-style-type: none;
     padding-left: 0;
 }
-#website:before {
-    font-family: "FontAwesome";
-    content: "\f0ac";
-    margin-right: 7px;
+
+a {
+    background-color: red;
+    font-weight: 900;
+    text-decoration: none;
+    width: 5rem;
 }
-#email:before {
-    font-family: "FontAwesome";
-    content: "\f0e0";
-    margin-right: 7px;
+
+
+#dci {
+    transform: rotate(-7deg);
+    position: absolute;
+    left: 49vw;
+    bottom: 43vh;
+    &:hover {
+        transform: scale(2) rotate(-7deg);
+    }
 }
-#github:before {
-    font-family: "FontAwesome";
-    content: "\f09b";
-    margin-right: 7px;
+
+#website {
+    transform: rotate(10deg);
+    &:hover {
+        transform: scale(2) rotate(10deg);
+    }
 }
-#linkedin:before {
-    font-family: "FontAwesome";
-    content: "\f09c";
-    margin-right: 7px;
+
+#email {
+    transform: rotate(-7deg);
+    &:hover {
+        transform: scale(2) rotate(-7deg);
+    }
 }
+
+#github {
+    transform: rotate(7deg);
+    &:hover {
+        transform: scale(2) rotate(7deg);
+    }
+}
+
+#linkedin {
+    transform: rotate(-10deg);
+    &:hover {
+        transform: scale(2) rotate(-10deg);
+    }
+}
+
+// #website {
+//     background-color: red;
+//     font-weight: 900;
+// }
+
+// #email {
+//     background-color: red;
+//     font-weight: 900;
+// }
+
+// #github {
+//     background-color: red;
+//     font-weight: 900;
+// }
+
+// #linkedin {
+//     background-color: red;
+//     font-weight: 900;
+// }
+
+
+// #website:before {
+//     font-family: "FontAwesome";
+//     content: "\f0ac";
+//     margin-right: 7px;
+// }
+// #email:before {
+//     font-family: "FontAwesome";
+//     content: "\f0e0";
+//     margin-right: 7px;
+// }
+// #github:before {
+//     font-family: "FontAwesome";
+//     content: "\f09b";
+//     margin-right: 7px;
+// }
+// #linkedin:before {
+//     font-family: "FontAwesome";
+//     content: "\f09c";
+//     margin-right: 7px;
+// }
 // Pictures
 #camera {
     width: 15%;
