@@ -1,19 +1,18 @@
 body {
+    // Collage
     background-image: url(../images/collage.png);
     background-size: 100%;
 
         img {
+            // MacBook
             width: 20%;
             position: absolute;
             left: 67vw;
             top: 12vh;
             transform: rotate(17deg);
-            
+
                 &:hover {
-                    width: 25%;
-                    position: absolute;
-                    left: 64vw;
-                    top: 7vh;
+                    transform: scale(1.2) rotate(17deg);
             }
      }
 }
