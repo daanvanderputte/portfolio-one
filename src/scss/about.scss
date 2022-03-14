@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
 @import url(../fontawesome-free-6.0.0-web/css/all.css);
+@import "./mobile";
 
 body {
     background-color: black;
@@ -92,27 +93,6 @@ a {
     }
 }
 
-// #website {
-//     background-color: red;
-//     font-weight: 900;
-// }
-
-// #email {
-//     background-color: red;
-//     font-weight: 900;
-// }
-
-// #github {
-//     background-color: red;
-//     font-weight: 900;
-// }
-
-// #linkedin {
-//     background-color: red;
-//     font-weight: 900;
-// }
-
-
 // #website:before {
 //     font-family: "FontAwesome";
 //     content: "\f0ac";
@@ -133,6 +113,7 @@ a {
 //     content: "\f09c";
 //     margin-right: 7px;
 // }
+
 // Pictures
 #camera {
     width: 15%;
@@ -147,40 +128,40 @@ a {
     left: 66vw;
 }
 // Media query
-@media only screen and (max-width: 600px) {
-    // Header
-    #cities {
-        flex-direction: column;
-        align-items: flex-end;
-        margin-right: 5vw;
-    }
-    // Main
-    main {
-        padding-left: 0;
-    }
-    // Links
-    #website {
-        &:hover {
-            transform: scale(1.2) rotate(-7deg);
-        }
-    }
-    #email {
-        &:hover {
-            transform: scale(1.2) rotate(2deg);
-        }
-    }
-    #github {
-        &:hover {
-            transform: scale(1.2) rotate(-1deg);
-        }
-    }
-    #linkedin {
-        &:hover {
-            transform: scale(1.2) rotate(5deg);
-        }
-    }
-    // Pictures
-    #camera, #turntable {
-        display: none;
-    }
-}
+// @media only screen and (max-width: 600px) {
+//     // Header
+//     #cities {
+//         flex-direction: column;
+//         align-items: flex-end;
+//         margin-right: 5vw;
+//     }
+//     // Main
+//     main {
+//         padding-left: 0;
+//     }
+//     // Links
+//     #website {
+//         &:hover {
+//             transform: scale(1.2) rotate(-7deg);
+//         }
+//     }
+//     #email {
+//         &:hover {
+//             transform: scale(1.2) rotate(2deg);
+//         }
+//     }
+//     #github {
+//         &:hover {
+//             transform: scale(1.2) rotate(-1deg);
+//         }
+//     }
+//     #linkedin {
+//         &:hover {
+//             transform: scale(1.2) rotate(5deg);
+//         }
+//     }
+//     // Pictures
+//     #camera, #turntable {
+//         display: none;
+//     }
+// }

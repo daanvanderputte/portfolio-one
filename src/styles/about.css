@@ -1,6 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
 @import url(../fontawesome-free-6.0.0-web/css/all.css);
+@media only screen and (max-width: 600px) {
+  #cities {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 5vw;
+  }
+
+  main {
+    padding-left: 0;
+  }
+
+  #website:hover {
+    transform: scale(1.2) rotate(-7deg);
+  }
+
+  #email:hover {
+    transform: scale(1.2) rotate(2deg);
+  }
+
+  #github:hover {
+    transform: scale(1.2) rotate(-1deg);
+  }
+
+  #linkedin:hover {
+    transform: scale(1.2) rotate(5deg);
+  }
+
+  #camera, #turntable {
+    display: none;
+  }
+}
 body {
   background-color: black;
   font-family: "PT Sans", sans-serif;
@@ -101,38 +132,6 @@ a {
   position: absolute;
   bottom: 4vh;
   left: 66vw;
-}
-
-@media only screen and (max-width: 600px) {
-  #cities {
-    flex-direction: column;
-    align-items: flex-end;
-    margin-right: 5vw;
-  }
-
-  main {
-    padding-left: 0;
-  }
-
-  #website:hover {
-    transform: scale(1.2) rotate(-7deg);
-  }
-
-  #email:hover {
-    transform: scale(1.2) rotate(2deg);
-  }
-
-  #github:hover {
-    transform: scale(1.2) rotate(-1deg);
-  }
-
-  #linkedin:hover {
-    transform: scale(1.2) rotate(5deg);
-  }
-
-  #camera, #turntable {
-    display: none;
-  }
 }
 
 /*# sourceMappingURL=about.css.map */
