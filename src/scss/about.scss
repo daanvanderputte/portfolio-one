@@ -41,6 +41,10 @@ main {
 ul {
     list-style-type: none;
     padding-left: 0;
+
+    li {
+        margin: 10px;
+    }
 }
 
 a {
@@ -51,40 +55,40 @@ a {
 }
 
 #dci {
-    transform: rotate(-2deg);
+    transform: rotate(2deg);
     position: absolute;
     left: 700px;
     bottom: 314px;
-    &:hover {
-        transform: scale(2) rotate(-7deg);
-    }
-}
-
-#website {
-    transform: rotate(-8deg);
-    &:hover {
-        transform: scale(2) rotate(10deg);
-    }
-}
-
-#email {
-    transform: rotate(-7deg);
-    &:hover {
-        transform: scale(2) rotate(-7deg);
-    }
-}
-
-#github {
-    transform: rotate(7deg);
     &:hover {
         transform: scale(2) rotate(7deg);
     }
 }
 
-#linkedin {
-    transform: rotate(-10deg);
+#website {
+    transform: rotate(-7deg);
     &:hover {
-        transform: scale(2) rotate(-10deg);
+        transform: scale(2) rotate(-12deg);
+    }
+}
+
+#email {
+    transform: rotate(2deg);
+    &:hover {
+        transform: scale(2) rotate(7deg);
+    }
+}
+
+#github {
+    transform: rotate(-1deg);
+    &:hover {
+        transform: scale(2) rotate(-6deg);
+    }
+}
+
+#linkedin {
+    transform: rotate(5deg);
+    &:hover {
+        transform: scale(2) rotate(12deg);
     }
 }
 
@@ -153,6 +157,27 @@ a {
     // Main
     main {
         padding-left: 0;
+    }
+    // Links
+    #website {
+        &:hover {
+            transform: scale(1.2) rotate(-7deg);
+        }
+    }
+    #email {
+        &:hover {
+            transform: scale(1.2) rotate(2deg);
+        }
+    }
+    #github {
+        &:hover {
+            transform: scale(1.2) rotate(-1deg);
+        }
+    }
+    #linkedin {
+        &:hover {
+            transform: scale(1.2) rotate(5deg);
+        }
     }
     // Pictures
     #camera, #turntable {
