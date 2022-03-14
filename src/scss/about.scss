@@ -45,24 +45,23 @@ ul {
 
 a {
     background-color: red;
+    padding: 3px;
     font-weight: 900;
     text-decoration: none;
-    width: 5rem;
 }
 
-
 #dci {
-    transform: rotate(-7deg);
+    transform: rotate(-2deg);
     position: absolute;
-    left: 49vw;
-    bottom: 43vh;
+    left: 700px;
+    bottom: 314px;
     &:hover {
         transform: scale(2) rotate(-7deg);
     }
 }
 
 #website {
-    transform: rotate(10deg);
+    transform: rotate(-8deg);
     &:hover {
         transform: scale(2) rotate(10deg);
     }
